@@ -4,10 +4,10 @@
         "plugin:flowtype/recommended"
     ],
     "plugins": [
-        "flowtype",
-        "compat"
+        "flowtype"
     ],
     "env": {
+        "browser": true,
         "jest": true
     },
     "rules": {
@@ -16,6 +16,6 @@
             "never"
         ],
         "no-unexpected-multiline": 2,
-        "compat/compat": 2
+        "comma-dangle": 0
     }
 }
